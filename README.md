@@ -3,6 +3,11 @@ mis_4480_hw3
 
 Homework #3 for MIS 4480
 
+The main notebook file (hw3.ipynb) is located in the "notebooks" subdirectory. It contains information about
+the logic behind the model, and runs/analyzes a few scenarios. The other notebook (model.ipynb) has just the
+model and analysis code, with none of the written analysis. To run the model, you can just run the parameter
+cell (after you've run the cells above to define the functions).
+
 Project Organization
 ------------
 
@@ -18,9 +23,9 @@ Project Organization
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks.
+    │   └── hw3.ipynb      <- The main notebook that walks you through the model creation and analysis
+    │   └── model.ipynb    <- A notebook with just the model and analysis code, and none of the descriptions
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
